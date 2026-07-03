@@ -51,7 +51,7 @@ BIN_CHANNEL = int(environ.get('BIN_CHANNEL', '-100'))  # Bin channel id (make su
 PREMIUM_LOGS = int(environ.get('PREMIUM_LOGS', '-100'))  # Premium logs channel id
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '-100').split()] #(make sure bot is admin)
 support_chat_id = environ.get('SUPPORT_CHAT_ID', '1003018147648')  # Support group id (make sure bot is admin)
-reqst_channel = environ.get('REQST_CHANNEL_ID', '1002657032271')  # Request channel id (make sure bot is admin)
+reqst_channel = environ.get('REQST_CHANNEL_ID', '1003018147648')  # Request channel id (make sure bot is admin)
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/+5Ev6MbE3WSM3YmM1')  # Support group link (make sure bot is admin)
 
 # FORCE_SUB 
@@ -61,15 +61,15 @@ auth_channels     = environ.get("AUTH_CHANNELS", "-100")# Channels for force sub
 # ============================
 # Payment Configuration
 # ============================
-QR_CODE = environ.get('QR_CODE', 'https://files.catbox.moe/bw4xnq.jpg')    # QR code image for payments
-OWNER_UPI_ID = environ.get('OWNER_UPI_ID', 'sonukhatik7193@oksbi')    # Owner UPI ID for payments
+QR_CODE = environ.get('QR_CODE', 'https://o.uguu.se/aeqmoKpo.jpg')    # QR code image for payments
+OWNER_UPI_ID = environ.get('OWNER_UPI_ID', 'sohebkhatik137@oksbi)    # Owner UPI ID for payments
 
 STAR_PREMIUM_PLANS = {
     15: "7day",
-    50: "1month",    
-    90: "2month", 
-    140: "3month",
-    90: "lifetime",
+    70: "1month",    
+    150: "2month", 
+    350: "3month",
+    1500: "lifetime",
 }  # Premium plans with their respective durations in days
 
 # ============================
@@ -86,7 +86,7 @@ DATABASE_URI2 = environ.get('DATABASE_URI2', "")  # MongoDB URI for the second d
 # Movie Notification & Update Settings
 # ============================
 MOVIE_UPDATE_NOTIFICATION = bool(environ.get('MOVIE_UPDATE_NOTIFICATION', True))  # Notification On (True) / Off (False)
-MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '-1002342735355'))  # Notification of sent to your channel
+MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '-1003703472560')  # Notification of sent to your channel
 DREAMXBOTZ_IMAGE_FETCH = bool(environ.get('DREAMXBOTZ_IMAGE_FETCH', True))  # On (True) / Off (False)
 LINK_PREVIEW = bool(environ.get('LINK_PREVIEW', False)) # Shows link preview in notification msg instead of image
 ABOVE_PREVIEW = bool(environ.get('ABOVE_PREVIEW', True)) # Shows link preview above the text in notification msg if True else below the msg
@@ -122,7 +122,7 @@ THREE_VERIFY_GAP = int(environ.get('THREE_VERIFY_GAP', "86400"))
 # ============================
 # Channel & Group Links Configuration
 # ============================
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+vf02ENon451jNDZl') # Group link for the bot
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+5Ev6MbE3WSM3YmM1') # Group link for the bot
 OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/movies_1780') # Owner link for the bot
 UPDATE_CHNL_LNK = environ.get('UPDATE_CHNL_LNK', 'https://t.me/MoviesGroupG3') # Update channel link for the bot
 
